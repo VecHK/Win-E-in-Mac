@@ -2,12 +2,22 @@
 
 不装第三方插件、不需第三方应用、不用自己写原生系统调用，只用快捷指令让 macOS 做到近似于 Windows 上的 `Win+E` 快捷键的功能。
 
+### 📊 Compatibility
+
 本快捷指令支持 macOS Sequoia 及更高版本。未在 Sonoma 或更早系统上测试，不确定是否可用。（若你知晓是否有效，请告知，谢谢！）
 
-This Shortcuts Supported Sequoia and later. It has not been tested on Sonoma or earlier versions, so it is unknown whether it works. (If you know whether it works or not, please let me know. Thanks!)
+This Shortcuts Supports Sequoia and later. It has not been tested on Sonoma or earlier versions, so it is unknown whether it works. (If you know whether it works or not, please let me know. Thanks!)
 
- 
-# ⚠️ 已知问题
+| macOS Version |  |
+| ---: | --- |
+| **Tahoe** | 🟢 It works |
+| **Sequoia** | 🟢 It works |
+| **Sonoma** | 🟡 Untested |
+| **Ventura** | 🟡 Untested |
+| **Monterey or older** | 🟡 Untested |
+
+
+### ⚠️ 已知问题
 
 * **1. 快捷指令热键在某些终端应用中可能失效（如 iTerm2、和系统自带的终端）**
   * **原因**：像 iTerm2 这类终端应用会以极高的优先级拦截并处理几乎所有键盘输入（尤其是包含 `Control` / `⌃` 键的组合），以应对终端转义序列，导致快捷指令无法捕获到该热键。
@@ -18,7 +28,7 @@ This Shortcuts Supported Sequoia and later. It has not been tested on Sonoma or 
   * **变通方案**：可以用 **`⌘+H`（隐藏访达）** 代替 `⌘+W`，从而使焦点自动弹回之前使用的应用程序。
 
 
-# ⚠️ Known Issues
+### ⚠️ Known Issues
 
 * **1. Shortcut hotkey may fail in terminal applications (e.g., iTerm2, Terminal)**
   * **Cause**: Terminal applications like iTerm2 intercept and consume almost all keyboard inputs (especially combinations containing the `Control` / `⌃` key) at a very high priority to handle terminal escape sequences, preventing Shortcuts from capturing the hotkey.
