@@ -37,6 +37,9 @@ This Shortcuts Supports Sequoia and later. It has not been tested on Sonoma or e
 * **2. 关闭新窗口后，焦点不会自动返回上一个应用程序**
   * **原因**：macOS 依赖于传统的、以应用为中心的焦点机制。使用此工具时，全局焦点会从原来的应用程序（如 Chrome）转移到 Finder 进程。当按下 `⌘+W` 关闭新创建的窗口时，焦点会继续锁定在 Finder 上，因为 Finder 进程本身并未退出，导致无法自动跳回上一个应用。
   * **变通方案**：可以用 **`⌘+H`（隐藏访达）** 代替 `⌘+W`，从而使焦点自动弹回之前使用的应用程序。
+ 
+* **3. 启动延迟**
+  * **原因**：因为快捷指令不是系统常驻的工具，因此调用 Win+E On Mac 会略微缓慢一些。
 
 
 ### ⚠️ Known Issues
@@ -48,3 +51,6 @@ This Shortcuts Supports Sequoia and later. It has not been tested on Sonoma or e
 * **2. Focus does not automatically return to the previous application after closing the new window**
   * **Cause**: macOS relies on a traditional, App-Centric focusing mechanism. When using this tool, the global focus shifts from your original application (e.g., Chrome) to the Finder process. When you press `⌘+W` to close the newly created window, the focus remains locked onto Finder because the Finder process itself hasn't exited, preventing it from jumping back to your previous application.
   * **Workaround**: After you are done with the temporary window, you can use **`⌘+H` (Hide Finder)** instead of `⌘+W`, allowing the focus to snap back to your previous application.
+
+* **3. Invocation Latency**
+  * **Cause**: Since Apple Shortcuts is not a persistent background resident service, invoking Win-E on Mac will experience a slight, minor lag.
