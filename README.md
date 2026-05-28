@@ -10,7 +10,8 @@ Achieve a Windows-like `Win+E` experience on macOS using native Shortcuts aloneâ
 You can bind your preferred global hotkey to open a specific directory in a fresh, isolated window.
 Furthermore, as shown in the screenshot below, you can duplicate multiple instances of Win+E On Mac shortcuts to map different hotkeys to different directories for a fully customized setup.
 
-<img width="750" height="400" alt="multi-path-setup-" src="https://github.com/user-attachments/assets/ff274972-fb0d-46b3-ac0c-a04ef5d25530" />
+<img width="750" height="400" alt="Snipaste_2026-05-28_11-13-10 (1)" src="https://github.com/user-attachments/assets/1bf900d3-72fc-47c0-9c7a-fe3dd8c5c35c" />
+
 
 ### ðŸ“Š Compatibility
 
