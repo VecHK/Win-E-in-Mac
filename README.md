@@ -1,4 +1,4 @@
-# Win+E In Mac
+# Win+E On Mac
 
 不装第三方插件、不需第三方应用、不用自己写原生系统调用，只用快捷指令让 macOS 做到近似于 Windows 上的 `Win+E` 快捷键的功能。
 
