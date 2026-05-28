@@ -1,14 +1,14 @@
-# Win+E in Mac
+# Win+E In Mac
 
 不装第三方插件、不需第三方应用、不用自己写原生系统调用，只用快捷指令让 macOS 做到近似于 Windows 上的 `Win+E` 快捷键的功能。
 
 Achieve a Windows-like `Win+E` experience on macOS using native Shortcuts alone—no third-party extensions, no heavy background apps, and zero custom native system call implementations required.
 
 你可以设置自己喜欢的全局快捷键，以新的窗口打开一个目录。
-你也可以像下图这样，复制出多个 Win+E In Mac 的 Shortcuts，来做到不同快捷键打开不同的目录。
+你也可以像下图这样，复制出多个 Win+E On Mac 的 Shortcuts，来做到不同快捷键打开不同的目录。
 
 You can bind your preferred global hotkey to open a specific directory in a fresh, isolated window.
-Furthermore, as shown in the screenshot below, you can duplicate multiple instances of Win+E in Mac shortcuts to map different hotkeys to different directories for a fully customized setup.
+Furthermore, as shown in the screenshot below, you can duplicate multiple instances of Win+E On Mac shortcuts to map different hotkeys to different directories for a fully customized setup.
 
 <img width="750" height="400" alt="multi-path-setup-" src="https://github.com/user-attachments/assets/ff274972-fb0d-46b3-ac0c-a04ef5d25530" />
 
