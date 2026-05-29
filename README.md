@@ -25,7 +25,7 @@ This Shortcuts Supports Sequoia and later. It has not been tested on Sonoma or e
 | **Sequoia** | 🟢 It works |
 | **Sonoma** | 🟡 Untested |
 | **Ventura** | 🟡 Untested |
-| **Monterey or older** | 🟡 Untested |
+| **Monterey** | 🔴 It doesn't work |
 
 
 ### ⚠️ 已知问题
