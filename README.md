@@ -1,5 +1,7 @@
 # Win+E On Mac
 
+<video width="720" src="https://github.com/user-attachments/assets/67412df7-7be4-4ce9-81c3-c8e183fac008"></video>
+
 不装第三方插件、不需第三方应用、不用自己写原生系统调用，只用快捷指令让 macOS 做到近似于 Windows 上的 `Win+E` 快捷键的功能。
 
 Achieve a Windows-like `Win+E` experience on macOS using native Shortcuts alone—no third-party extensions, no heavy background apps, and zero custom native system call implementations required.
