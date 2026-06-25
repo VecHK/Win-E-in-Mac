@@ -23,6 +23,7 @@ This Shortcuts Supports Sequoia and later. It has not been tested on Sonoma or e
 
 | macOS Version |  |
 | ---: | --- |
+| **Golden Gate** | 🟢 It works |
 | **Tahoe** | 🟢 It works |
 | **Sequoia** | 🟢 It works |
 | **Sonoma** | 🟡 Untested |
